@@ -1,0 +1,215 @@
+<html>
+<head>
+<title>TestNG:  Timesheet Automation Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Timesheet Automation Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>27/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Nov 26 12:15:42 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>1516 seconds (1516215 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='test.ViewerExportTest.TC_083_Viewer_approved_week_team()'><b>TC_083_Viewer_approved_week_team</b><br>Test class: test.ViewerExportTest</td>
+<td></td>
+<td>30</td>
+<td>test.ViewerExportTest@411f53a0</td></tr>
+<tr>
+<td title='test.ViewerExportTest.TC_074_Viewer_export_year_task()'><b>TC_074_Viewer_export_year_task</b><br>Test class: test.ViewerExportTest</td>
+<td></td>
+<td>24</td>
+<td>test.ViewerExportTest@411f53a0</td></tr>
+<tr>
+<td title='test.ViewerExportTest.TC_092_Viewer_date_reportee()'><b>TC_092_Viewer_date_reportee</b><br>Test class: test.ViewerExportTest</td>
+<td></td>
+<td>29</td>
+<td>test.ViewerExportTest@411f53a0</td></tr>
+<tr>
+<td title='test.ViewerExportTest.TC_077_Viewer_approve_month()'><b>TC_077_Viewer_approve_month</b><br>Test class: test.ViewerExportTest</td>
+<td></td>
+<td>30</td>
+<td>test.ViewerExportTest@411f53a0</td></tr>
+<tr>
+<td title='test.ViewerExportTest.TC_01()'><b>TC_01</b><br>Test class: test.ViewerExportTest</td>
+<td></td>
+<td>13</td>
+<td>test.ViewerExportTest@411f53a0</td></tr>
+<tr>
+<td title='test.ViewerExportTest.TC_095_Viewer_month_task_team()'><b>TC_095_Viewer_month_task_team</b><br>Test class: test.ViewerExportTest</td>
+<td></td>
+<td>32</td>
+<td>test.ViewerExportTest@411f53a0</td></tr>
+<tr>
+<td title='test.ViewerExportTest.TC_082_Viewer_week_team()'><b>TC_082_Viewer_week_team</b><br>Test class: test.ViewerExportTest</td>
+<td></td>
+<td>27</td>
+<td>test.ViewerExportTest@411f53a0</td></tr>
+<tr>
+<td title='test.ViewerExportTest.TC_076_Viewer_year_list_reportee()'><b>TC_076_Viewer_year_list_reportee</b><br>Test class: test.ViewerExportTest</td>
+<td></td>
+<td>27</td>
+<td>test.ViewerExportTest@411f53a0</td></tr>
+<tr>
+<td title='test.ViewerExportTest.TC_096_Viewer_submitted_month_task()'><b>TC_096_Viewer_submitted_month_task</b><br>Test class: test.ViewerExportTest</td>
+<td></td>
+<td>33</td>
+<td>test.ViewerExportTest@411f53a0</td></tr>
+<tr>
+<td title='test.ViewerExportTest.TC_090_Viewer_task_date_range()'><b>TC_090_Viewer_task_date_range</b><br>Test class: test.ViewerExportTest</td>
+<td></td>
+<td>30</td>
+<td>test.ViewerExportTest@411f53a0</td></tr>
+<tr>
+<td title='test.ViewerExportTest.TC_080_Viewer_list_month_reportee()'><b>TC_080_Viewer_list_month_reportee</b><br>Test class: test.ViewerExportTest</td>
+<td></td>
+<td>29</td>
+<td>test.ViewerExportTest@411f53a0</td></tr>
+<tr>
+<td title='test.ViewerExportTest.TC_075_Viewer_approved_year_task()'><b>TC_075_Viewer_approved_year_task</b><br>Test class: test.ViewerExportTest</td>
+<td></td>
+<td>29</td>
+<td>test.ViewerExportTest@411f53a0</td></tr>
+<tr>
+<td title='test.ViewerExportTest.TC_089_Viewer_date_select_range_team()'><b>TC_089_Viewer_date_select_range_team</b><br>Test class: test.ViewerExportTest</td>
+<td></td>
+<td>29</td>
+<td>test.ViewerExportTest@411f53a0</td></tr>
+<tr>
+<td title='test.ViewerExportTest.TC_087_Viewer_date_reportee()'><b>TC_087_Viewer_date_reportee</b><br>Test class: test.ViewerExportTest</td>
+<td></td>
+<td>32</td>
+<td>test.ViewerExportTest@411f53a0</td></tr>
+<tr>
+<td title='test.ViewerExportTest.TC_081_Viewer_week_team_approved()'><b>TC_081_Viewer_week_team_approved</b><br>Test class: test.ViewerExportTest</td>
+<td></td>
+<td>31</td>
+<td>test.ViewerExportTest@411f53a0</td></tr>
+<tr>
+<td title='test.ViewerExportTest.TC_085_Viewer_date_approved_task()'><b>TC_085_Viewer_date_approved_task</b><br>Test class: test.ViewerExportTest</td>
+<td></td>
+<td>32</td>
+<td>test.ViewerExportTest@411f53a0</td></tr>
+<tr>
+<td title='test.ViewerExportTest.TC_093_Viewer_submitted_team()'><b>TC_093_Viewer_submitted_team</b><br>Test class: test.ViewerExportTest</td>
+<td></td>
+<td>29</td>
+<td>test.ViewerExportTest@411f53a0</td></tr>
+<tr>
+<td title='test.ViewerExportTest.TC_079_Viewer_approve_month_reportee()'><b>TC_079_Viewer_approve_month_reportee</b><br>Test class: test.ViewerExportTest</td>
+<td></td>
+<td>29</td>
+<td>test.ViewerExportTest@411f53a0</td></tr>
+<tr>
+<td title='test.ViewerExportTest.TC_097_Viewer_submitted_task_team()'><b>TC_097_Viewer_submitted_task_team</b><br>Test class: test.ViewerExportTest</td>
+<td></td>
+<td>27</td>
+<td>test.ViewerExportTest@411f53a0</td></tr>
+<tr>
+<td title='test.ViewerExportTest.TC_084_Viewer_week_reportee_task()'><b>TC_084_Viewer_week_reportee_task</b><br>Test class: test.ViewerExportTest</td>
+<td></td>
+<td>27</td>
+<td>test.ViewerExportTest@411f53a0</td></tr>
+<tr>
+<td title='test.ViewerExportTest.TC_086_Viewer_date_task()'><b>TC_086_Viewer_date_task</b><br>Test class: test.ViewerExportTest</td>
+<td></td>
+<td>32</td>
+<td>test.ViewerExportTest@411f53a0</td></tr>
+<tr>
+<td title='test.ViewerExportTest.TC_098_Viewer_week_task_reportee()'><b>TC_098_Viewer_week_task_reportee</b><br>Test class: test.ViewerExportTest</td>
+<td></td>
+<td>31</td>
+<td>test.ViewerExportTest@411f53a0</td></tr>
+<tr>
+<td title='test.ViewerExportTest.TC_078_Viewer_approve_month_team()'><b>TC_078_Viewer_approve_month_team</b><br>Test class: test.ViewerExportTest</td>
+<td></td>
+<td>30</td>
+<td>test.ViewerExportTest@411f53a0</td></tr>
+<tr>
+<td title='test.ViewerExportTest.TC_088_Viewer_date_reportee_task()'><b>TC_088_Viewer_date_reportee_task</b><br>Test class: test.ViewerExportTest</td>
+<td></td>
+<td>27</td>
+<td>test.ViewerExportTest@411f53a0</td></tr>
+<tr>
+<td title='test.ViewerExportTest.TC_094_Viewer_year_task_reportee()'><b>TC_094_Viewer_year_task_reportee</b><br>Test class: test.ViewerExportTest</td>
+<td></td>
+<td>29</td>
+<td>test.ViewerExportTest@411f53a0</td></tr>
+<tr>
+<td title='test.ViewerExportTest.TC_091_Viewer_date_range_reportee()'><b>TC_091_Viewer_date_range_reportee</b><br>Test class: test.ViewerExportTest</td>
+<td></td>
+<td>29</td>
+<td>test.ViewerExportTest@411f53a0</td></tr>
+<tr>
+<td title='test.ViewerExportTest.TC_073_Viewer_approve_list()'><b>TC_073_Viewer_approve_list</b><br>Test class: test.ViewerExportTest</td>
+<td></td>
+<td>30</td>
+<td>test.ViewerExportTest@411f53a0</td></tr>
+</table><p>
+</body>
+</html>
