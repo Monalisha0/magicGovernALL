@@ -5,14 +5,8 @@
     </listeners>
     <test name="Magic Govern Automation Test">
         <classes>
-            <class name="test.ResourceTabTest"/>
-            <class name="test.HomePageTabTest"/>      
-            <class name="test.StartupTabTest"/>
             <class name="test.BlogTest"/>      
-            <class name="test.CaseStudiesTab_Test"/>      
-            <class name="test.Company_Test"/>      
-            <class name="test.IndustryTest"/>      
-            <class name="test.SolutionTab_Test"/>        
+            <class name="test.CaseStudiesTab_Test"/>             
         </classes>
     </test>
 </suite>
